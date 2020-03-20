@@ -188,6 +188,9 @@ section h3 {
     text-align: center;
     text-decoration: underline;
 }
+section {
+    margin-top: 50px;
+}
 
 img {
     padding-bottom: 1rem;
