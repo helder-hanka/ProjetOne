@@ -131,28 +131,28 @@
      height: 150px;
  }
  
- header,
- .demo {
-     margin: auto;
+ header {
      padding-top: 40px;
      text-align: center;
-     font-size: 1.2em;
+     /* font-size: 1.2em; */
      font-family: 'Viaoda Libre', cursive;
+     color: black;
  }
- .demo {
+ /* .demo {
      background-color: aquamarine;
      color: brown;
- }
+ } */
  
  header p {
      font-weight: lighter;
      font-style: italic;
      text-align: center;
      margin: 20px;
+     font-size: 2em;
  }
  
- .describe {
-     font-size: 0.5em;
+ header .describe {
+     font-size: 0.6em;
  }
  
  .Maintitle {
@@ -184,7 +184,7 @@
      padding: 1.3rem;
      margin-bottom: 10px;
      box-shadow: 1px 1px 5px 1px;
-     font-family: font-family: 'Viaoda Libre', cursive;
+     font-family:'Viaoda Libre', cursive;
  }
 @media (max-width: 48em){
  img{
@@ -215,21 +215,17 @@
      }
      .nave .menu-icon {
          display: none;
-     }
+     } 
+     /* header */
      header {
-         margin: 10px;
-         font-size: 1em;
-         height: 500px;
+        font-size: 2em;
+     }
+     header .describe {
+         font-size: 0.7em;
      }
      .nave .logo {
          float: left;
          font-size: 2em;
-     }
-     /* header */
-     header,
-     h1 {
-         font-size: 3em;
-         padding-top: 80px;
      }
      .bodyarticles {
          margin: 0;

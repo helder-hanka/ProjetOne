@@ -15,7 +15,7 @@
     <div class="container">
         <!-- descriptif -->
         <header id="home">
-            <button onclick="myFunction()">Try it</button>
+            <button onclick="myFunction()">Write Your Name</button>
             <p id="demo"></p>
             <!-- <h1 class="titles">Welcome to What the pic</h1> -->
             <p class="describe"> (What the pic is a community Website where you can send funny pic you take during travel and explain in an article where you find it !)</p>
@@ -103,17 +103,6 @@
     </div>
 
 </body>
-<script>
-    function myFunction () {
-        let txt;
-        let person = prompt("Please enter your name:", "Harry Potter");
-        if (person == null || person == "") {
-            txt = "User cancelled the propt.";
-        } else {
-            txt = "Welcome to " + person;
-        }
-        document.getElementById("demo").innerHTML = txt;
-    }
-</script>
+<script src="index.js"></script>
 
 </html>
