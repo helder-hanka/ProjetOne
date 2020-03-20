@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +7,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="contact.css">
 </head>
-
 <body>
     <div class="container1">
         <!-- descriptif -->
@@ -27,13 +25,9 @@
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
-         <!-- end navBar -->
-        
         <!-- formulaire de contact -->
-        
-        
         <div class="containerform">
-          <form>
+          <form name="myForm" onsubmit="return validateForm()">
           <div class="row">
             <div class="col-25">
               <label for="fname">First Name</label>
@@ -125,12 +119,9 @@
           </div>
       </footer>
       <!-- end footer -->
-
         <!-- end footer -->
-
-
     </div>
 
 </body>
-
+<script src="contact.js"></script>
 </html>
